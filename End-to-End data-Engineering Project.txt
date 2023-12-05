@@ -1,0 +1,15 @@
+End-to-End data-Engineering Projects
+
+1. Create a virtual environment for the project
+	python -m venv venv
+2. Activate the virtual Environment 
+	source venv/Scripts/activate
+3. Install Dependencies:
+    - `pip install -e ".[dev]"`
+
+
+big Query is used for data warehousing
+1. Create a new project
+2. Inside big query. create 2 data sets namely: raw_data and transformed_data
+	These 2 tables will house the raw and transformed data as the name implies
+3. Create a service account which serves as Google account that can be used to authenticate APIs and the like
